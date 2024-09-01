@@ -40,6 +40,8 @@ setup(
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt
-        line.strip() for line in open("requirements.txt").readlines()
+        'numpy',
+        'scipy',
+        'setuptools'
     ],
 )
