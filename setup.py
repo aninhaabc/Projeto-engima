@@ -1,17 +1,8 @@
 from setuptools import setup, find_packages
-import os
 
 # Lendo o conteúdo do README.md para usar como descrição longa
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-
-# Função para coletar arquivos de uma pasta específica
-def package_files(directory):
-    paths = []
-    for (path, _ , filenames) in os.walk(directory):
-        for filename in filenames:
-            paths.append(os.path.relpath(os.path.join(path,filename), 'Projeto-enigma'))
-    return paths
 
 setup(
     name="Projeto enigma",  # Substitua pelo nome do seu pacote   
