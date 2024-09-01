@@ -22,7 +22,7 @@ setup(
     python_requires='>=3.10',
     entry_points={
         'console_scripts': [
-            'ana_projeto_enigma=enigma:main',
+            'ana_projeto_enigma=enigma.main:main',
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt
