@@ -17,12 +17,12 @@ MODULE_STUB = 'Projeto engima'
 setup(
     name=MODULE_STUB,  # Substitua pelo nome do seu pacote
     version="0.1.0",
-    author="Tiago Tavares",
-    author_email="tiagoft@gmail.com",
-    description="Um pacote minimalista em python",
+    author="Ana Beatriz da Cunha",
+    author_email="anabc1@al.insper.edu.br",
+    description="Um projeto engima proposto pelo professor responsável pela matéria de Álgebra Linear",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/",  # URL do repositório do seu projeto (se houver)
+    url="https://github.com/aninhaabc/Projeto-engima",  # URL do repositório do seu projeto (se houver)
     packages=find_packages(),  # Encontra automaticamente todos os pacotes no diretório
     package_data={
     '': find_subdir(f'{MODULE_STUB}/assets'),
@@ -33,10 +33,10 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.12',
     entry_points={
         'console_scripts': [
-            f'tiago_hello_world={MODULE_STUB}.main:main',
+            f'ana_projeto_engima={MODULE_STUB}.enigma:main',
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt
