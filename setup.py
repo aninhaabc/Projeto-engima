@@ -14,7 +14,7 @@ def package_files(directory):
     return paths
 
 setup(
-    name="Projeto enigama",  # Substitua pelo nome do seu pacote   
+    name="Projeto enigma",  # Substitua pelo nome do seu pacote   
     version="0.1.0",
     author="Ana Beatriz da Cunha",
     author_email="anabc1@al.insper.edu.br",
