@@ -36,7 +36,7 @@ setup(
     python_requires='>=3.10',
     entry_points={
         'console_scripts': [
-            f'ana_projeto_enigma={MODULE_STUB}.engima:main',
+            f'ana_projeto_enigma={MODULE_STUB}.enigma:main',
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt
