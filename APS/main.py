@@ -1,9 +1,8 @@
 from enigma import gerar_matrizes_de_permutacao, encriptar_enigma, decriptar_enigma, ALFABETO
 
 if __name__ == "__main__":
-    mensagem = "aaafdsds"
-
-    # Usar o tamanho do alfabeto para as matrizes de permutação
+    mensagem = "aaafdsds"  # digite a mensagem que você deseja criptografar e descriptografar
+    
     N = len(ALFABETO)
     P, Q = gerar_matrizes_de_permutacao(N)
     
